@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortuna Family Home | Adult Residential Care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Fortuna Family Home</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Fortuna Family Home</h1>
+        <p class="hero-tagline">Compassionate adult residential care in a true family setting.</p>
+        <a href="#contact" class="btn btn-primary">Schedule a Visit</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container grid grid-2">
+        <div>
+          <h2>A Home, Not Just a Facility</h2>
+          <p class="lead">Fortuna Family Home is a licensed adult residential care home where residents receive personalized care in a small, family-style environment.</p>
+          <p>We believe in dignity, comfort, and connection. Our staff treats every resident like family—with respect, patience, and genuine care. Whether your loved one needs assistance with daily activities, medication management, or simply a safe and nurturing place to call home, we’re here.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight">
+            <span class="highlight-icon">🏠</span>
+            <strong>Small, home-like setting</strong>
+          </div>
+          <div class="highlight">
+            <span class="highlight-icon">❤️</span>
+            <strong>Family-owned and operated</strong>
+          </div>
+          <div class="highlight">
+            <span class="highlight-icon">👨‍⚕️</span>
+            <strong>Licensed & experienced care</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Our Care & Services</h2>
+        <p class="section-intro">We provide round-the-clock support tailored to each resident’s needs.</p>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Personal Care</h3>
+            <p>Assistance with bathing, grooming, dressing, and daily living activities with dignity and respect.</p>
+          </article>
+          <article class="service-card">
+            <h3>Medication Management</h3>
+            <p>Supervised medication administration and coordination with physicians and pharmacies.</p>
+          </article>
+          <article class="service-card">
+            <h3>Meals & Nutrition</h3>
+            <p>Home-cooked meals and snacks, with attention to dietary needs and preferences.</p>
+          </article>
+          <article class="service-card">
+            <h3>Companionship & Activities</h3>
+            <p>Meaningful interaction, outings, and activities in a warm, social environment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="amenities" class="section amenities">
+      <div class="container">
+        <h2>Amenities & Comfort</h2>
+        <ul class="amenities-list">
+          <li>Private and semi-private rooms</li>
+          <li>Comfortable common areas</li>
+          <li>Secure, peaceful neighborhood</li>
+          <li>24/7 supervision and support</li>
+          <li>Laundry and housekeeping</li>
+          <li>Family welcome to visit</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p class="section-intro">We’d love to meet you and your family. Call or send a message to schedule a tour.</p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>Phone</strong><br><a href="tel:+15034599537">(503) 459-9537</a></p>
+            <p><strong>Email</strong><br><a href="mailto:mekdeseberhane@fortunafamilyhome.com">mekdeseberhane@fortunafamilyhome.com</a></p>
+            <p><strong>Address</strong><br>2502 NE 110th Ave<br>Vancouver, WA 98684</p>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your loved one and how we can help."></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© Fortuna Family Home. Licensed adult residential care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
